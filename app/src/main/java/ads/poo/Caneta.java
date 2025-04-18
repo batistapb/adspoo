@@ -3,18 +3,27 @@ package ads.poo;
 public class Caneta {
 
     //Atributos
-    private String cor;
+    private String definirCOr;
     private double nivelTinta;
     private boolean aberta;
 
 
     //Métodos
     public void definirCOr(String c) {
-        cor = c;
+        definirCOr = c;
     }
 
-    public void nivelAtualTinta(double t){
-        nivelTinta = t;
+    public String definirCOr() {
+        return definirCOr;
+    }
+
+    public void definirNivelTinta(double n) {
+        this.nivelTinta = n;
+    }
+
+    public double isnivelAtualTinta(){
+        return nivelTinta;
+
     }
 
     public void abrirFechar(){
@@ -24,4 +33,21 @@ public class Caneta {
     public boolean isAberta(){
         return aberta;
     }
+
+    public String desenhar(int quantidade){
+
+        // 1 if aberta
+        // 2 quantos - eu consigo desenhar - cálculo
+        // 3 debitar o quantos da tinta
+        // 4 return "-".repeat(quantos);
+
+                         
+
+
+        return "";
+    }
+
+
 }
+
+
